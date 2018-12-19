@@ -10,5 +10,5 @@ class Post < ActiveRecord::Base
 
   def tags_attributes=(tags_hash)
     byebug
-  end 
+  end
 end
