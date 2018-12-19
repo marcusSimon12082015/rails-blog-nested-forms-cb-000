@@ -9,6 +9,6 @@ class Post < ActiveRecord::Base
   accepts_nested_attributes_for :tags
 
   def tags_attributes=(tags_hash)
-    byebug
+    pry
   end
 end
